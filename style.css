@@ -1,0 +1,155 @@
+/* Configurações gerais do corpo da página */
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica,
+    Arial, sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+/* Cabeçalho com a logo */
+.header {
+  background-color: #fff;
+  padding: 15px 25px;
+  border-bottom: 1px solid #e0e0e0;
+  text-align: left;
+}
+
+.header img {
+  height: 45px;
+  width: auto;
+  vertical-align: middle;
+}
+
+/* Seção de título em largura total */
+.full-width-section {
+  width: 100%;
+  padding: 40px 20px;
+  background-color: #fff; /* Cor de fundo padrão */
+  text-align: center;
+  box-sizing: border-box; /* Garante que o padding não aumente a largura total */
+}
+
+.title-container h1 {
+  color: #004d40;
+  margin: 0 auto; /* Centraliza o texto dentro da seção */
+  font-size: 2.2em;
+  max-width: 800px; /* Largura máxima do conteúdo */
+  text-align: center; /* Garante que o texto fique centralizado */
+}
+
+/* Container para o conteúdo interno das seções de largura total */
+.section-content {
+  max-width: 800px;
+  margin: 0 auto; /* Centraliza o conteúdo */
+  padding: 20px; /* Adiciona um pouco de espaçamento interno */
+  box-sizing: border-box;
+  text-align: left; /* Alinha o texto do conteúdo à esquerda por padrão */
+}
+
+/* Estilo para seções com cor de fundo diferente (opcional) */
+.colored-section {
+  background-color: #f9f9f9; /* Um cinza bem claro */
+}
+
+/* Rodapé */
+.footer {
+  text-align: center;
+  padding: 10px 20px;
+  background-color: white;
+  color: #333;
+}
+
+.footer p {
+  margin: 0;
+  font-weight: normal;
+}
+
+.footer img {
+  width: 10%;
+}
+
+main {
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+main p {
+  line-height: 1.8;
+  margin-bottom: 15px;
+}
+
+/* Títulos secundários */
+h2,
+h3 {
+  color: #004d40;
+}
+
+h2 {
+  border-bottom: 2px solid #e0e0e0;
+  padding-bottom: 5px;
+  margin-top: 30px;
+  margin-bottom: 15px;
+  text-align: left;
+}
+
+/* Tabela de horários */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 15px 0;
+}
+
+th,
+td {
+  border: 1px solid #ddd;
+  padding: 12px;
+  text-align: left;
+}
+
+thead th {
+  background-color: #e8f5e9;
+  font-weight: bold;
+}
+
+tbody tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+/* Imagem do mapa */
+.route-map {
+  width: 100%;
+  max-width: 600px;
+  height: auto;
+  border: 1px solid #ccc;
+  display: block;
+  margin: 20px auto;
+  background-color: #eee;
+}
+
+/* Seção de observações/atenção */
+.observations {
+  background-color: #fff3e0;
+  border-left: 5px solid #ff9800;
+  padding: 15px 20px;
+  margin-top: 20px;
+  border-radius: 4px;
+}
+
+.observations ul {
+  list-style-type: "»   ";
+  padding-left: 20px;
+  margin: 0;
+}
+
+.observations li {
+  margin-bottom: 10px;
+}
+
+.observations li:last-child {
+  margin-bottom: 0;
+}
