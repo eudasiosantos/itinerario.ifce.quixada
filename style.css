@@ -46,7 +46,7 @@ body {
   margin: 0 auto; /* Centraliza o conteúdo */
   padding: 20px; /* Adiciona um pouco de espaçamento interno */
   box-sizing: border-box;
-  text-align: left; /* Alinha o texto do conteúdo à esquerda por padrão */
+  text-align: justify; /* Alinha o texto do conteúdo à esquerda por padrão */
 }
 
 /* Estilo para seções com cor de fundo diferente (opcional) */
